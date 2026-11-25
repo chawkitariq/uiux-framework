@@ -7,6 +7,7 @@ Reusable [Agent Skills](https://code.claude.com/docs/en/skills) and agents for d
 | Skill | Use it when |
 |---|---|
 | [`premium-landing-workflow`](skills/premium-landing-workflow/SKILL.md) | Building a premium static landing page: measured reference audit, copy first, parallel section writers, quality loop, independent review, sign-off |
+| [`visual-verification`](skills/visual-verification/SKILL.md) | Checking any visual result (web, 3D, video): real render, measured state, reference comparison, generated-image limits, browser-script pitfalls |
 
 Technical SEO lives in dev-framework (`technical-seo` skill, `seo-specialist` agent).
 
