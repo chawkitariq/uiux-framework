@@ -9,8 +9,8 @@
 | Motion UI/UX designer | strongest | animation score | numeric spec |
 | Foundations developer | mid | build, tokens, animation engine | skeleton + conventions |
 | Section developers (xN) | mid | 1-2 sections each | their own files only |
-| Critical art director | strongest | ruthless review on captures | 15 prioritised points |
-| Cross reviewer | mid | design + marketing, economical | at most 8 points |
+| Critical art director | strongest | ruthless review on captures | about 15 prioritised points |
+| Cross reviewer | mid | design + marketing, economical | a short capped list (e.g. at most 8 points) |
 | Technical SEO specialist | mid | tags, structured data, perf (`technical-seo` skill and `seo-specialist` agent, see dev-framework) | files + control script |
 
 ## Short brief template (every role)
