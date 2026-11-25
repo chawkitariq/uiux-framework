@@ -2,8 +2,8 @@
 
 ## Rules
 - One sequence per mock-up, played once on entry (IntersectionObserver).
-- Animate only `transform`, `opacity`, `stroke-dashoffset`.
-- Easing `cubic-bezier(.16,1,.3,1)`, 0.4 to 1.2 s, no bounce.
+- Prefer animating compositor-friendly properties: `transform`, `opacity`, `stroke-dashoffset`.
+- Easing and duration come from the measured reference or the brand's motion spec. Example defaults when none exists: a smooth ease-out such as `cubic-bezier(.16,1,.3,1)`, roughly 0.4 to 1.2 s, no bounce. Define them once as tokens.
 - Everything neutralised under `prefers-reduced-motion` and under a global switch (e.g. `data-still` on the root element).
 - Content must stay visible if the script fails: hide-until-reveal only once JS has marked the page as active.
 
